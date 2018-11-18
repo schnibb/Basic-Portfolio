@@ -1,0 +1,142 @@
+        .outer {
+            width: 100%;
+            border-bottom: solid 1px #cccccc;
+        }
+        
+        .header {
+            display: flex;
+            background-color: #ffffff;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            justify-content: space between;
+            width: 960px;
+            margin: auto;
+        }
+        
+        .name {
+            background-color: #4aaaa5;
+            font-size: 24px;
+            color: #fefffe;
+        }
+        
+        .name a {
+            color: #ffffff;
+        }
+        
+        .about {
+            margin-left: auto;
+        }
+        
+        .about a,
+        .portfolio a,
+        .contact a {
+            color: #777777;
+            font-size: 20px;
+        }
+        
+        .about a:hover,
+        .portfolio a:hover,
+        .contact a:hover {
+            color: #000000;
+            font-weight: bolder;
+        }
+        
+        .name a:hover {
+            font-weight: bolder;
+        }
+        
+        a {
+            text-decoration: none;
+        }
+        
+        .header>div {
+            padding: 20px;
+        }
+        
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        
+        .contentOuter {
+            background-image: url(../images/dust_scratches.png);
+        }
+        
+        .content {
+            flex: 1 0 auto;
+            background: #ffffff;
+            font-family: 'Arial', 'Helvetcia Neue', Helvetica, sans-serif;
+            line-height: 1.5;
+            max-width: 920px;
+            margin: 0 auto;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            border: 1px solid #cccccc;
+            padding: 20px;
+            color: #777777;
+            overflow: hidden;
+            font-size: 16pt;
+        }
+        
+        h1 {
+            color: #4aaaa5;
+            border-bottom: 3px solid #cccccc;
+            border-width: 20%;
+        }
+        
+        #aboutPic {
+            float: left;
+            margin-right: 15px;
+        }
+        
+        .footer {
+            flex-shrink: 0;
+            border-top: 8px solid #4aaaa5;
+            background: #656665;
+            padding: 20px;
+            color: #fefffe;
+            text-align: center;
+        }
+        
+        #name {
+            width: 98%;
+            padding: 5px;
+        }
+        
+        #email {
+            width: 98%;
+            padding: 5px;
+        }
+        
+        #message {
+            height: 200px;
+            width: 99%;
+        }
+        
+        #name:focus,
+        #email:focus,
+        #message:focus {
+            background: yellow;
+        }
+        
+        #submit {
+            background: #4aaaa5;
+            color: #ffffff;
+            width: 180px;
+            height: 40px;
+            padding: 3px;
+            margin-top: 10px;
+            font-size: 18px;
+        }
+        
+        .imageSet1,
+        .imageSet2,
+        .imageSet3 {
+            float: left;
+        }
+        
+        #pic {
+            margin-right: 40px;
+            margin-bottom: 30px;
+            position: relative;
+        }
