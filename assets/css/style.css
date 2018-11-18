@@ -70,10 +70,11 @@
             background: #ffffff;
             font-family: 'Arial', 'Helvetcia Neue', Helvetica, sans-serif;
             line-height: 1.5;
+            min-width: 920px;
             max-width: 920px;
-            margin: 0 auto;
-            margin-top: 20px;
-            margin-bottom: 20px;
+            margin: auto;
+            margin-top: 30px;
+            margin-bottom: 80px;
             border: 1px solid #cccccc;
             padding: 20px;
             color: #777777;
